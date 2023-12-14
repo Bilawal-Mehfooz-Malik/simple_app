@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class PersonalDetails extends StatelessWidget {
@@ -15,19 +14,13 @@ class PersonalDetails extends StatelessWidget {
             // Name Text
             Text(
               'Bilawal Mehfooz',
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
 
             //Location Text
             Text(
               'Kotli, Azad Kashmir',
-              style: TextStyle(
-                fontSize: 16,
-                color: Colors.grey,
-              ),
+              style: TextStyle(fontSize: 16, color: Colors.grey),
             ),
           ],
         ),
